@@ -1,0 +1,35 @@
+{
+  "users": [
+    { "userID": "1", "username": "user1", "email": "user1@example.com", "password": "password1", "profile_picture": "profile1.jpg" },
+    { "userID": "2", "username": "user2", "email": "user2@example.com", "password": "password2", "profile_picture": "profile2.jpg" },
+    { "userID": "3", "username": "user3", "email": "user3@example.com", "password": "password3", "profile_picture": "profile3.jpg" }
+  ],
+  "posts": [
+    { "postID": "101", "userID": "1", "content": "Post content by user1", "timestamp": "2026-01-01T10:00:00.000Z" }
+  ],
+  "comments": [
+    { "commentID": "1001", "postID": "101", "userID": "1", "comment_text": "Comment by user1 on user1's post", "timestamp": "2026-01-01T10:05:00.000Z" }
+  ],
+  "likes": [
+    { "likeID": "10001", "postID": "101", "userID": "1", "timestamp": "2026-01-01T10:06:00.000Z" }
+  ],
+  "friends": [
+    { "friendshipID": "100001", "userID1": "1", "userID2": "2", "status": "accepted" }
+  ],
+  "messages": [
+    { "messageID": "1000001", "senderID": "1", "receiverID": "3", "message_text": "Hello from user1 to user3", "timestamp": "2026-01-01T10:10:00.000Z" }
+  ],
+  "notifications": [
+    { "notificationID": "10000001", "userID": "1", "content": "You have a new notification", "timestamp": "2026-01-01T10:15:00.000Z" }
+  ],
+  "groups": [
+    { "groupID": "1001", "groupName": "Group 1", "adminID": "1" }
+  ],
+  "group_members": [
+    { "groupID": "1001", "userID": "1" },
+    { "groupID": "1001", "userID": "2" }
+  ],
+  "group_messages": [
+    { "groupMessageID": "1", "groupID": "1001", "userID": "1", "message_text": "Welcome to Group 1", "timestamp": "2026-01-01T10:20:00.000Z" }
+  ]
+}
