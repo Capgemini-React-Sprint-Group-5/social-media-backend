@@ -447,6 +447,12 @@
       "email": "logan.adams@example.com",
       "password": "password64",
       "profile_picture": "logan_adams.jpg"
+    },
+    {
+      "userID": "mr3ew5ztdncm",
+      "username": "user65",
+      "email": "user65@example.com",
+      "password": "password65"
     }
   ],
   "posts": [

@@ -14,7 +14,7 @@ router.get("/all", (req, res) => {
 router.get("/search/:username", (req, res) => {
   const db = readDB();
   const users = db.users.filter((u) =>
-    u.username.toLowerCase() === req.params.username.toLowerCase()
+    u.username.toLowerCase().includes(req.params.username.toLowerCase())
   );
   success(res, { data: users });
 });
