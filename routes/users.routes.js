@@ -8,7 +8,7 @@ const router = Router();
 
 router.get("/all", (req, res) => {
   const db = readDB();
-  success(res, { data: db.Users });
+  success(res, { data: db.users });
 });
 
 router.get("/search/:username", (req, res) => {

@@ -1,35 +1,3218 @@
 {
   "users": [
-    { "userID": "1", "username": "user1", "email": "user1@example.com", "password": "password1", "profile_picture": "profile1.jpg" },
-    { "userID": "2", "username": "user2", "email": "user2@example.com", "password": "password2", "profile_picture": "profile2.jpg" },
-    { "userID": "3", "username": "user3", "email": "user3@example.com", "password": "password3", "profile_picture": "profile3.jpg" }
+    {
+      "userID": "1",
+      "username": "user1",
+      "email": "user1@example.com",
+      "password": "password1",
+      "profile_picture": "profile1.jpg"
+    },
+    {
+      "userID": "2",
+      "username": "user2",
+      "email": "user2@example.com",
+      "password": "password2",
+      "profile_picture": "profile2.jpg"
+    },
+    {
+      "userID": "3",
+      "username": "user3",
+      "email": "user3@example.com",
+      "password": "password3",
+      "profile_picture": "profile3.jpg"
+    },
+    {
+      "userID": "4",
+      "username": "user4",
+      "email": "user4@example.com",
+      "password": "password4",
+      "profile_picture": "profile4.jpg"
+    },
+    {
+      "userID": "5",
+      "username": "user5",
+      "email": "user5@example.com",
+      "password": "password5",
+      "profile_picture": "profile5.jpg"
+    },
+    {
+      "userID": "6",
+      "username": "user6",
+      "email": "user6@example.com",
+      "password": "password6",
+      "profile_picture": "profile6.jpg"
+    },
+    {
+      "userID": "7",
+      "username": "user7",
+      "email": "user7@example.com",
+      "password": "password7",
+      "profile_picture": "profile7.jpg"
+    },
+    {
+      "userID": "8",
+      "username": "user8",
+      "email": "user8@example.com",
+      "password": "password8",
+      "profile_picture": "profile8.jpg"
+    },
+    {
+      "userID": "9",
+      "username": "user9",
+      "email": "user9@example.com",
+      "password": "password9",
+      "profile_picture": "profile9.jpg"
+    },
+    {
+      "userID": "10",
+      "username": "user10",
+      "email": "user10@example.com",
+      "password": "password10",
+      "profile_picture": "profile10.jpg"
+    },
+    {
+      "userID": "11",
+      "username": "user11",
+      "email": "user11@example.com",
+      "password": "password11",
+      "profile_picture": "profile11.jpg"
+    },
+    {
+      "userID": "12",
+      "username": "user12",
+      "email": "user12@example.com",
+      "password": "password12",
+      "profile_picture": "profile12.jpg"
+    },
+    {
+      "userID": "13",
+      "username": "user13",
+      "email": "user13@example.com",
+      "password": "password13",
+      "profile_picture": "profile13.jpg"
+    },
+    {
+      "userID": "14",
+      "username": "user14",
+      "email": "user14@example.com",
+      "password": "password14",
+      "profile_picture": "profile14.jpg"
+    },
+    {
+      "userID": "15",
+      "username": "user15",
+      "email": "user15@example.com",
+      "password": "password15",
+      "profile_picture": "profile15.jpg"
+    },
+    {
+      "userID": "16",
+      "username": "user16",
+      "email": "user16@example.com",
+      "password": "password16",
+      "profile_picture": "profile16.jpg"
+    },
+    {
+      "userID": "17",
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "password": "password17",
+      "profile_picture": "john_doe.jpg"
+    },
+    {
+      "userID": "18",
+      "username": "jane_smith",
+      "email": "jane.smith@example.com",
+      "password": "password18",
+      "profile_picture": "jane_smith.jpg"
+    },
+    {
+      "userID": "19",
+      "username": "sam_jones",
+      "email": "sam.jones@example.com",
+      "password": "password19",
+      "profile_picture": "sam_jones.jpg"
+    },
+    {
+      "userID": "20",
+      "username": "emily_wilson",
+      "email": "emily.wilson@example.com",
+      "password": "password20",
+      "profile_picture": "emily_wilson.jpg"
+    },
+    {
+      "userID": "21",
+      "username": "alex_jenkins",
+      "email": "alex.jenkins@example.com",
+      "password": "password21",
+      "profile_picture": "alex_jenkins.jpg"
+    },
+    {
+      "userID": "22",
+      "username": "lisa_miller",
+      "email": "lisa.miller@example.com",
+      "password": "password22",
+      "profile_picture": "lisa_miller.jpg"
+    },
+    {
+      "userID": "23",
+      "username": "tom_smith",
+      "email": "tom.smith@example.com",
+      "password": "password23",
+      "profile_picture": "tom_smith.jpg"
+    },
+    {
+      "userID": "24",
+      "username": "olivia_davis",
+      "email": "olivia.davis@example.com",
+      "password": "password24",
+      "profile_picture": "olivia_davis.jpg"
+    },
+    {
+      "userID": "25",
+      "username": "michael_brown",
+      "email": "michael.brown@example.com",
+      "password": "password25",
+      "profile_picture": "michael_brown.jpg"
+    },
+    {
+      "userID": "26",
+      "username": "sophie_miller",
+      "email": "sophie.miller@example.com",
+      "password": "password26",
+      "profile_picture": "sophie_miller.jpg"
+    },
+    {
+      "userID": "27",
+      "username": "david_jones",
+      "email": "david.jones@example.com",
+      "password": "password27",
+      "profile_picture": "david_jones.jpg"
+    },
+    {
+      "userID": "28",
+      "username": "olivia_martinez",
+      "email": "olivia.martinez@example.com",
+      "password": "password28",
+      "profile_picture": "olivia_martinez.jpg"
+    },
+    {
+      "userID": "29",
+      "username": "james_taylor",
+      "email": "james.taylor@example.com",
+      "password": "password29",
+      "profile_picture": "james_taylor.jpg"
+    },
+    {
+      "userID": "30",
+      "username": "emma_anderson",
+      "email": "emma.anderson@example.com",
+      "password": "password30",
+      "profile_picture": "emma_anderson.jpg"
+    },
+    {
+      "userID": "31",
+      "username": "william_hall",
+      "email": "william.hall@example.com",
+      "password": "password31",
+      "profile_picture": "william_hall.jpg"
+    },
+    {
+      "userID": "32",
+      "username": "ava_jackson",
+      "email": "ava.jackson@example.com",
+      "password": "password32",
+      "profile_picture": "ava_jackson.jpg"
+    },
+    {
+      "userID": "33",
+      "username": "samuel_white",
+      "email": "samuel.white@example.com",
+      "password": "password33",
+      "profile_picture": "samuel_white.jpg"
+    },
+    {
+      "userID": "34",
+      "username": "hannah_thomas",
+      "email": "hannah.thomas@example.com",
+      "password": "password34",
+      "profile_picture": "hannah_thomas.jpg"
+    },
+    {
+      "userID": "35",
+      "username": "benjamin_wilson",
+      "email": "benjamin.wilson@example.com",
+      "password": "password35",
+      "profile_picture": "benjamin_wilson.jpg"
+    },
+    {
+      "userID": "36",
+      "username": "zoey_harris",
+      "email": "zoey.harris@example.com",
+      "password": "password36",
+      "profile_picture": "zoey_harris.jpg"
+    },
+    {
+      "userID": "37",
+      "username": "logan_carter",
+      "email": "logan.carter@example.com",
+      "password": "password37",
+      "profile_picture": "logan_carter.jpg"
+    },
+    {
+      "userID": "38",
+      "username": "grace_martin",
+      "email": "grace.martin@example.com",
+      "password": "password38",
+      "profile_picture": "grace_martin.jpg"
+    },
+    {
+      "userID": "39",
+      "username": "ryan_morris",
+      "email": "ryan.morris@example.com",
+      "password": "password39",
+      "profile_picture": "ryan_morris.jpg"
+    },
+    {
+      "userID": "40",
+      "username": "sophia_king",
+      "email": "sophia.king@example.com",
+      "password": "password40",
+      "profile_picture": "sophia_king.jpg"
+    },
+    {
+      "userID": "41",
+      "username": "daniel_adams",
+      "email": "daniel.adams@example.com",
+      "password": "password41",
+      "profile_picture": "daniel_adams.jpg"
+    },
+    {
+      "userID": "42",
+      "username": "lily_wright",
+      "email": "lily.wright@example.com",
+      "password": "password42",
+      "profile_picture": "lily_wright.jpg"
+    },
+    {
+      "userID": "43",
+      "username": "ethan_miller",
+      "email": "ethan.miller@example.com",
+      "password": "password43",
+      "profile_picture": "ethan_miller.jpg"
+    },
+    {
+      "userID": "44",
+      "username": "mia_hill",
+      "email": "mia.hill@example.com",
+      "password": "password44",
+      "profile_picture": "mia_hill.jpg"
+    },
+    {
+      "userID": "45",
+      "username": "noah_clark",
+      "email": "noah.clark@example.com",
+      "password": "password45",
+      "profile_picture": "noah_clark.jpg"
+    },
+    {
+      "userID": "46",
+      "username": "mia_jenkins",
+      "email": "mia.jenkins@example.com",
+      "password": "password46",
+      "profile_picture": "mia_jenkins.jpg"
+    },
+    {
+      "userID": "47",
+      "username": "oliver_wood",
+      "email": "oliver.wood@example.com",
+      "password": "password47",
+      "profile_picture": "oliver_wood.jpg"
+    },
+    {
+      "userID": "48",
+      "username": "emma_morris",
+      "email": "emma.morris@example.com",
+      "password": "password48",
+      "profile_picture": "emma_morris.jpg"
+    },
+    {
+      "userID": "49",
+      "username": "liam_turner",
+      "email": "liam.turner@example.com",
+      "password": "password49",
+      "profile_picture": "liam_turner.jpg"
+    },
+    {
+      "userID": "50",
+      "username": "ava_nelson",
+      "email": "ava.nelson@example.com",
+      "password": "password50",
+      "profile_picture": "ava_nelson.jpg"
+    },
+    {
+      "userID": "51",
+      "username": "ethan_miller",
+      "email": "ethan.miller@example.com",
+      "password": "password51",
+      "profile_picture": "ethan_miller.jpg"
+    },
+    {
+      "userID": "52",
+      "username": "isabella_rogers",
+      "email": "isabella.rogers@example.com",
+      "password": "password52",
+      "profile_picture": "isabella_rogers.jpg"
+    },
+    {
+      "userID": "53",
+      "username": "aiden_king",
+      "email": "aiden.king@example.com",
+      "password": "password53",
+      "profile_picture": "aiden_king.jpg"
+    },
+    {
+      "userID": "54",
+      "username": "olivia_carter",
+      "email": "olivia.carter@example.com",
+      "password": "password54",
+      "profile_picture": "olivia_carter.jpg"
+    },
+    {
+      "userID": "55",
+      "username": "emma_jones",
+      "email": "emma.jones@example.com",
+      "password": "password55",
+      "profile_picture": "emma_jones.jpg"
+    },
+    {
+      "userID": "56",
+      "username": "jacob_smith",
+      "email": "jacob.smith@example.com",
+      "password": "password56",
+      "profile_picture": "jacob_smith.jpg"
+    },
+    {
+      "userID": "57",
+      "username": "olivia_davis",
+      "email": "olivia.davis@example.com",
+      "password": "password57",
+      "profile_picture": "olivia_davis.jpg"
+    },
+    {
+      "userID": "58",
+      "username": "william_brown",
+      "email": "william.brown@example.com",
+      "password": "password58",
+      "profile_picture": "william_brown.jpg"
+    },
+    {
+      "userID": "59",
+      "username": "sophia_anderson",
+      "email": "sophia.anderson@example.com",
+      "password": "password59",
+      "profile_picture": "sophia_anderson.jpg"
+    },
+    {
+      "userID": "60",
+      "username": "jackson_wilson",
+      "email": "jackson.wilson@example.com",
+      "password": "password60",
+      "profile_picture": "jackson_wilson.jpg"
+    },
+    {
+      "userID": "61",
+      "username": "olivia_hill",
+      "email": "olivia.hill@example.com",
+      "password": "password61",
+      "profile_picture": "olivia_hill.jpg"
+    },
+    {
+      "userID": "62",
+      "username": "ethan_carter",
+      "email": "ethan.carter@example.com",
+      "password": "password62",
+      "profile_picture": "ethan_carter.jpg"
+    },
+    {
+      "userID": "63",
+      "username": "ava_martin",
+      "email": "ava.martin@example.com",
+      "password": "password63",
+      "profile_picture": "ava_martin.jpg"
+    },
+    {
+      "userID": "64",
+      "username": "logan_adams",
+      "email": "logan.adams@example.com",
+      "password": "password64",
+      "profile_picture": "logan_adams.jpg"
+    }
   ],
   "posts": [
-    { "postID": "101", "userID": "1", "content": "Post content by user1", "timestamp": "2026-01-01T10:00:00.000Z" }
+    {
+      "postID": "101",
+      "userID": "1",
+      "content": "Post content by user1",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "102",
+      "userID": "2",
+      "content": "Post content by user2",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "103",
+      "userID": "3",
+      "content": "Post content by user3",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "104",
+      "userID": "4",
+      "content": "Post content by user4",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "105",
+      "userID": "5",
+      "content": "Post content by user5",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "106",
+      "userID": "6",
+      "content": "Post content by user6",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "107",
+      "userID": "7",
+      "content": "Post content by user7",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "108",
+      "userID": "8",
+      "content": "Post content by user8",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "109",
+      "userID": "9",
+      "content": "Post content by user9",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "110",
+      "userID": "10",
+      "content": "Post content by user10",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "111",
+      "userID": "11",
+      "content": "Post content by user11",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "112",
+      "userID": "12",
+      "content": "Post content by user12",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "113",
+      "userID": "13",
+      "content": "Post content by user13",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "114",
+      "userID": "14",
+      "content": "Post content by user14",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "115",
+      "userID": "15",
+      "content": "Post content by user15",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "116",
+      "userID": "16",
+      "content": "Post content by user16",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "117",
+      "userID": "17",
+      "content": "Exciting news from John Doe!",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "118",
+      "userID": "18",
+      "content": "Jane Smith latest adventures",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "119",
+      "userID": "19",
+      "content": "Sam Jones shares a tech tip",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "120",
+      "userID": "20",
+      "content": "Emily Wilson travel diary",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "121",
+      "userID": "21",
+      "content": "Alex Jenkins shares coding tips",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "122",
+      "userID": "22",
+      "content": "Lisa Miller cooking adventures",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "123",
+      "userID": "23",
+      "content": "Tom Smith fitness journey",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "124",
+      "userID": "24",
+      "content": "Olivia Davis explores nature",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "125",
+      "userID": "25",
+      "content": "Michael Brown coding journey",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "126",
+      "userID": "26",
+      "content": "Sophie Miller favorite recipes",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "127",
+      "userID": "27",
+      "content": "David Jones shares tech news",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "128",
+      "userID": "28",
+      "content": "Olivia Martinez art showcase",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "129",
+      "userID": "29",
+      "content": "James Taylor book recommendations",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "130",
+      "userID": "30",
+      "content": "Emma Anderson travel experiences",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "131",
+      "userID": "31",
+      "content": "William Hall fitness tips",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "132",
+      "userID": "32",
+      "content": "Ava Jackson photography passion",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "133",
+      "userID": "33",
+      "content": "Samuel White coding projects",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "134",
+      "userID": "34",
+      "content": "Hannah Thomas beauty tips",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "135",
+      "userID": "35",
+      "content": "Benjamin Wilson music playlist",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "136",
+      "userID": "36",
+      "content": "Zoey Harris pet adventures",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "137",
+      "userID": "37",
+      "content": "Logan Carter gaming world",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "138",
+      "userID": "38",
+      "content": "Grace Martin fashion updates",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "139",
+      "userID": "39",
+      "content": "Ryan Morris sports highlights",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "140",
+      "userID": "40",
+      "content": "Sophia King movie reviews",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "141",
+      "userID": "41",
+      "content": "Daniel Adams outdoor adventures",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "142",
+      "userID": "42",
+      "content": "Lily Wright DIY projects",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "143",
+      "userID": "43",
+      "content": "Ethan Miller technology insights",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "144",
+      "userID": "44",
+      "content": "Mia Hill fitness and wellness",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "145",
+      "userID": "45",
+      "content": "Noah Clark coding adventures",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "146",
+      "userID": "46",
+      "content": "Mia Jenkins favorite desserts",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "147",
+      "userID": "47",
+      "content": "Oliver Wood shares science news",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "148",
+      "userID": "48",
+      "content": "Emma Morris art gallery showcase",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "149",
+      "userID": "49",
+      "content": "Liam Turner book recommendations",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "150",
+      "userID": "50",
+      "content": "Ava Nelson travel diary",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "151",
+      "userID": "51",
+      "content": "Ethan Miller coding projects",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "152",
+      "userID": "52",
+      "content": "Isabella Rogers fashion updates",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "153",
+      "userID": "53",
+      "content": "Aiden King fitness tips",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "154",
+      "userID": "54",
+      "content": "Olivia Carter beauty secrets",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "155",
+      "userID": "55",
+      "content": "Emma Jones coding tips",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "156",
+      "userID": "56",
+      "content": "Jacob Smith travel adventures",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "157",
+      "userID": "57",
+      "content": "Olivia Davis tech insights",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "158",
+      "userID": "58",
+      "content": "William Brown art exhibition",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "159",
+      "userID": "59",
+      "content": "Sophia Anderson book reviews",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "160",
+      "userID": "60",
+      "content": "Jackson Wilson cooking experiments",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "161",
+      "userID": "61",
+      "content": "Olivia Hill fitness journey",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "162",
+      "userID": "62",
+      "content": "Ethan Carter photography passion",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "163",
+      "userID": "63",
+      "content": "Ava Martin coding projects",
+      "timestamp": "NOW()"
+    },
+    {
+      "postID": "164",
+      "userID": "64",
+      "content": "Logan Adams gaming world",
+      "timestamp": "NOW()"
+    }
   ],
   "comments": [
-    { "commentID": "1001", "postID": "101", "userID": "1", "comment_text": "Comment by user1 on user1's post", "timestamp": "2026-01-01T10:05:00.000Z" }
+    {
+      "commentID": "1001",
+      "postID": "101",
+      "userID": "1",
+      "comment_text": "Comment by user1 on user1's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1002",
+      "postID": "102",
+      "userID": "2",
+      "comment_text": "Comment by user2 on user2's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1003",
+      "postID": "103",
+      "userID": "3",
+      "comment_text": "Comment by user3 on user3's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1004",
+      "postID": "104",
+      "userID": "4",
+      "comment_text": "Comment by user4 on user4's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1005",
+      "postID": "105",
+      "userID": "5",
+      "comment_text": "Comment by user5 on user5's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1006",
+      "postID": "106",
+      "userID": "6",
+      "comment_text": "Comment by user6 on user6's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1007",
+      "postID": "107",
+      "userID": "7",
+      "comment_text": "Comment by user7 on user7's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1008",
+      "postID": "108",
+      "userID": "8",
+      "comment_text": "Comment by user8 on user8's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1009",
+      "postID": "109",
+      "userID": "9",
+      "comment_text": "Comment by user9 on user9's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1010",
+      "postID": "110",
+      "userID": "10",
+      "comment_text": "Comment by user10 on user10's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1011",
+      "postID": "111",
+      "userID": "11",
+      "comment_text": "Comment by user11 on user11's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1012",
+      "postID": "112",
+      "userID": "12",
+      "comment_text": "Comment by user12 on user12's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1013",
+      "postID": "113",
+      "userID": "13",
+      "comment_text": "Comment by user13 on user13's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1014",
+      "postID": "114",
+      "userID": "14",
+      "comment_text": "Comment by user14 on user14's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1015",
+      "postID": "115",
+      "userID": "15",
+      "comment_text": "Comment by user15 on user15's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1016",
+      "postID": "116",
+      "userID": "16",
+      "comment_text": "Comment by user16 on user16's post",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1017",
+      "postID": "117",
+      "userID": "17",
+      "comment_text": "Great news, John!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1018",
+      "postID": "118",
+      "userID": "18",
+      "comment_text": "Love your adventures, Jane!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1019",
+      "postID": "119",
+      "userID": "19",
+      "comment_text": "Thanks for the tip, Sam!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1020",
+      "postID": "120",
+      "userID": "20",
+      "comment_text": "Beautiful pictures, Emily!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1021",
+      "postID": "121",
+      "userID": "21",
+      "comment_text": "Great coding tips, Alex!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1022",
+      "postID": "122",
+      "userID": "22",
+      "comment_text": "I want the recipe, Lisa!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1023",
+      "postID": "123",
+      "userID": "23",
+      "comment_text": "Keep it up, Tom!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1024",
+      "postID": "124",
+      "userID": "24",
+      "comment_text": "Nature is beautiful, Olivia!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1025",
+      "postID": "125",
+      "userID": "25",
+      "comment_text": "Great journey, Michael!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1026",
+      "postID": "126",
+      "userID": "26",
+      "comment_text": "I need that recipe, Sophie!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1027",
+      "postID": "127",
+      "userID": "27",
+      "comment_text": "Interesting news, David!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1028",
+      "postID": "128",
+      "userID": "28",
+      "comment_text": "Your art is amazing, Olivia!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1029",
+      "postID": "129",
+      "userID": "29",
+      "comment_text": "Thanks for the book recommendations, James!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1030",
+      "postID": "130",
+      "userID": "30",
+      "comment_text": "I want to visit those places, Emma!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1031",
+      "postID": "131",
+      "userID": "31",
+      "comment_text": "William, share more fitness tips!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1032",
+      "postID": "132",
+      "userID": "32",
+      "comment_text": "Ava, your photography skills are impressive!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1033",
+      "postID": "133",
+      "userID": "33",
+      "comment_text": "Samuel, your coding projects inspire me!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1034",
+      "postID": "134",
+      "userID": "34",
+      "comment_text": "Hannah, I love your beauty tips!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1035",
+      "postID": "135",
+      "userID": "35",
+      "comment_text": "Benjamin, share your music playlist!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1036",
+      "postID": "136",
+      "userID": "36",
+      "comment_text": "Zoey, tell us more about your pets!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1037",
+      "postID": "137",
+      "userID": "37",
+      "comment_text": "Logan, which games do you recommend?",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1038",
+      "postID": "138",
+      "userID": "38",
+      "comment_text": "Grace, your fashion updates are fantastic!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1039",
+      "postID": "139",
+      "userID": "39",
+      "comment_text": "Ryan, highlight some sports moments!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1040",
+      "postID": "140",
+      "userID": "40",
+      "comment_text": "Sophia, your movie reviews are helpful!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1041",
+      "postID": "141",
+      "userID": "41",
+      "comment_text": "Daniel, share your outdoor adventures!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1042",
+      "postID": "142",
+      "userID": "42",
+      "comment_text": "Lily, I want to try your DIY projects!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1043",
+      "postID": "143",
+      "userID": "43",
+      "comment_text": "Ethan, your technology insights are valuable!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1044",
+      "postID": "144",
+      "userID": "44",
+      "comment_text": "Mia, your wellness tips are appreciated!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1045",
+      "postID": "145",
+      "userID": "45",
+      "comment_text": "Great coding adventures, Noah!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1046",
+      "postID": "146",
+      "userID": "46",
+      "comment_text": "I need that dessert recipe, Mia!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1047",
+      "postID": "147",
+      "userID": "47",
+      "comment_text": "Interesting science news, Oliver!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1048",
+      "postID": "148",
+      "userID": "48",
+      "comment_text": "Your art is amazing, Emma!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1049",
+      "postID": "149",
+      "userID": "49",
+      "comment_text": "Thanks for the book recommendations, Liam!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1050",
+      "postID": "150",
+      "userID": "50",
+      "comment_text": "I want to visit those places, Ava!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1051",
+      "postID": "151",
+      "userID": "51",
+      "comment_text": "Ethan, your coding projects are impressive!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1052",
+      "postID": "152",
+      "userID": "52",
+      "comment_text": "Isabella, share more fashion updates!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1053",
+      "postID": "153",
+      "userID": "53",
+      "comment_text": "Aiden, more fitness tips, please!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1054",
+      "postID": "154",
+      "userID": "54",
+      "comment_text": "Olivia, beauty tips for an event?",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1055",
+      "postID": "155",
+      "userID": "55",
+      "comment_text": "Great coding tips, Emma!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1056",
+      "postID": "156",
+      "userID": "56",
+      "comment_text": "I want to visit those places, Jacob!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1057",
+      "postID": "157",
+      "userID": "57",
+      "comment_text": "Interesting tech insights, Olivia!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1058",
+      "postID": "158",
+      "userID": "58",
+      "comment_text": "Your art exhibition is amazing, William!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1059",
+      "postID": "159",
+      "userID": "59",
+      "comment_text": "Thanks for the book reviews, Sophia!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1060",
+      "postID": "160",
+      "userID": "60",
+      "comment_text": "I need those cooking recipes, Jackson!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1061",
+      "postID": "161",
+      "userID": "61",
+      "comment_text": "Olivia, your fitness journey is inspiring!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1062",
+      "postID": "162",
+      "userID": "62",
+      "comment_text": "Ethan, your photography skills are impressive!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1063",
+      "postID": "163",
+      "userID": "63",
+      "comment_text": "Ava, your coding projects inspire me!",
+      "timestamp": "NOW()"
+    },
+    {
+      "commentID": "1064",
+      "postID": "164",
+      "userID": "64",
+      "comment_text": "Logan, recommend some games!",
+      "timestamp": "NOW()"
+    }
   ],
   "likes": [
-    { "likeID": "10001", "postID": "101", "userID": "1", "timestamp": "2026-01-01T10:06:00.000Z" }
+    {
+      "likeID": "10001",
+      "postID": "101",
+      "userID": "1",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10002",
+      "postID": "102",
+      "userID": "2",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10003",
+      "postID": "103",
+      "userID": "3",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10004",
+      "postID": "104",
+      "userID": "4",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10005",
+      "postID": "105",
+      "userID": "5",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10006",
+      "postID": "106",
+      "userID": "6",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10007",
+      "postID": "107",
+      "userID": "7",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10008",
+      "postID": "108",
+      "userID": "8",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10009",
+      "postID": "109",
+      "userID": "9",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10010",
+      "postID": "110",
+      "userID": "10",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10011",
+      "postID": "111",
+      "userID": "11",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10012",
+      "postID": "112",
+      "userID": "12",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10013",
+      "postID": "113",
+      "userID": "13",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10014",
+      "postID": "114",
+      "userID": "14",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10015",
+      "postID": "115",
+      "userID": "15",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10016",
+      "postID": "116",
+      "userID": "16",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10017",
+      "postID": "117",
+      "userID": "17",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10018",
+      "postID": "118",
+      "userID": "18",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10019",
+      "postID": "119",
+      "userID": "19",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10020",
+      "postID": "120",
+      "userID": "20",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10021",
+      "postID": "121",
+      "userID": "21",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10022",
+      "postID": "122",
+      "userID": "22",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10023",
+      "postID": "123",
+      "userID": "23",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10024",
+      "postID": "124",
+      "userID": "24",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10025",
+      "postID": "125",
+      "userID": "25",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10026",
+      "postID": "126",
+      "userID": "26",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10027",
+      "postID": "127",
+      "userID": "27",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10028",
+      "postID": "128",
+      "userID": "28",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10029",
+      "postID": "129",
+      "userID": "29",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10030",
+      "postID": "130",
+      "userID": "30",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10031",
+      "postID": "131",
+      "userID": "31",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10032",
+      "postID": "132",
+      "userID": "32",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10033",
+      "postID": "133",
+      "userID": "33",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10034",
+      "postID": "134",
+      "userID": "34",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10035",
+      "postID": "135",
+      "userID": "35",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10036",
+      "postID": "136",
+      "userID": "36",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10037",
+      "postID": "137",
+      "userID": "37",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10038",
+      "postID": "138",
+      "userID": "38",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10039",
+      "postID": "139",
+      "userID": "39",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10040",
+      "postID": "140",
+      "userID": "40",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10041",
+      "postID": "141",
+      "userID": "41",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10042",
+      "postID": "142",
+      "userID": "42",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10043",
+      "postID": "143",
+      "userID": "43",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10044",
+      "postID": "144",
+      "userID": "44",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10045",
+      "postID": "145",
+      "userID": "45",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10046",
+      "postID": "146",
+      "userID": "46",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10047",
+      "postID": "147",
+      "userID": "47",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10048",
+      "postID": "148",
+      "userID": "48",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10049",
+      "postID": "149",
+      "userID": "49",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10050",
+      "postID": "150",
+      "userID": "50",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10051",
+      "postID": "151",
+      "userID": "51",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10052",
+      "postID": "152",
+      "userID": "52",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10053",
+      "postID": "153",
+      "userID": "53",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10054",
+      "postID": "154",
+      "userID": "54",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10055",
+      "postID": "155",
+      "userID": "55",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10056",
+      "postID": "156",
+      "userID": "56",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10057",
+      "postID": "157",
+      "userID": "57",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10058",
+      "postID": "158",
+      "userID": "58",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10059",
+      "postID": "159",
+      "userID": "59",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10060",
+      "postID": "160",
+      "userID": "60",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10061",
+      "postID": "161",
+      "userID": "61",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10062",
+      "postID": "162",
+      "userID": "62",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10063",
+      "postID": "163",
+      "userID": "63",
+      "timestamp": "NOW()"
+    },
+    {
+      "likeID": "10064",
+      "postID": "164",
+      "userID": "64",
+      "timestamp": "NOW()"
+    }
   ],
   "friends": [
-    { "friendshipID": "100001", "userID1": "1", "userID2": "2", "status": "accepted" }
+    {
+      "friendshipID": "100001",
+      "userID1": "1",
+      "userID2": "2",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100002",
+      "userID1": "2",
+      "userID2": "3",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100003",
+      "userID1": "3",
+      "userID2": "1",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100004",
+      "userID1": "4",
+      "userID2": "2",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100005",
+      "userID1": "5",
+      "userID2": "7",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100006",
+      "userID1": "6",
+      "userID2": "8",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100007",
+      "userID1": "7",
+      "userID2": "5",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100008",
+      "userID1": "8",
+      "userID2": "6",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100009",
+      "userID1": "9",
+      "userID2": "11",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100010",
+      "userID1": "10",
+      "userID2": "12",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100011",
+      "userID1": "11",
+      "userID2": "9",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100012",
+      "userID1": "12",
+      "userID2": "10",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100013",
+      "userID1": "13",
+      "userID2": "15",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100014",
+      "userID1": "14",
+      "userID2": "16",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100015",
+      "userID1": "15",
+      "userID2": "13",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100016",
+      "userID1": "16",
+      "userID2": "14",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100017",
+      "userID1": "17",
+      "userID2": "19",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100018",
+      "userID1": "18",
+      "userID2": "20",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100019",
+      "userID1": "19",
+      "userID2": "17",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100020",
+      "userID1": "20",
+      "userID2": "18",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100021",
+      "userID1": "21",
+      "userID2": "23",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100022",
+      "userID1": "22",
+      "userID2": "24",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100023",
+      "userID1": "23",
+      "userID2": "21",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100024",
+      "userID1": "24",
+      "userID2": "22",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100025",
+      "userID1": "25",
+      "userID2": "27",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100026",
+      "userID1": "26",
+      "userID2": "28",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100027",
+      "userID1": "27",
+      "userID2": "25",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100028",
+      "userID1": "28",
+      "userID2": "26",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100029",
+      "userID1": "29",
+      "userID2": "31",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100030",
+      "userID1": "30",
+      "userID2": "32",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100031",
+      "userID1": "31",
+      "userID2": "29",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100032",
+      "userID1": "32",
+      "userID2": "30",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100033",
+      "userID1": "33",
+      "userID2": "35",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100034",
+      "userID1": "34",
+      "userID2": "36",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100035",
+      "userID1": "35",
+      "userID2": "33",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100036",
+      "userID1": "36",
+      "userID2": "34",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100037",
+      "userID1": "37",
+      "userID2": "39",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100038",
+      "userID1": "38",
+      "userID2": "40",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100039",
+      "userID1": "39",
+      "userID2": "37",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100040",
+      "userID1": "40",
+      "userID2": "38",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100041",
+      "userID1": "41",
+      "userID2": "43",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100042",
+      "userID1": "42",
+      "userID2": "44",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100043",
+      "userID1": "43",
+      "userID2": "41",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100044",
+      "userID1": "44",
+      "userID2": "42",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100045",
+      "userID1": "45",
+      "userID2": "47",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100046",
+      "userID1": "46",
+      "userID2": "48",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100047",
+      "userID1": "47",
+      "userID2": "45",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100048",
+      "userID1": "48",
+      "userID2": "46",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100049",
+      "userID1": "49",
+      "userID2": "51",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100050",
+      "userID1": "50",
+      "userID2": "52",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100051",
+      "userID1": "51",
+      "userID2": "49",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100052",
+      "userID1": "52",
+      "userID2": "50",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100053",
+      "userID1": "53",
+      "userID2": "55",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100054",
+      "userID1": "54",
+      "userID2": "53",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100055",
+      "userID1": "55",
+      "userID2": "57",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100056",
+      "userID1": "56",
+      "userID2": "58",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100057",
+      "userID1": "57",
+      "userID2": "55",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100058",
+      "userID1": "58",
+      "userID2": "56",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100059",
+      "userID1": "59",
+      "userID2": "61",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100060",
+      "userID1": "60",
+      "userID2": "62",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "100061",
+      "userID1": "61",
+      "userID2": "59",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100062",
+      "userID1": "62",
+      "userID2": "60",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100063",
+      "userID1": "63",
+      "userID2": "63",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100064",
+      "userID1": "64",
+      "userID2": "63",
+      "status": "pending"
+    }
   ],
   "messages": [
-    { "messageID": "1000001", "senderID": "1", "receiverID": "3", "message_text": "Hello from user1 to user3", "timestamp": "2026-01-01T10:10:00.000Z" }
+    {
+      "messageID": "1000001",
+      "senderID": "1",
+      "receiverID": "3",
+      "message_text": "Hello from user1 to user3",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000002",
+      "senderID": "2",
+      "receiverID": "1",
+      "message_text": "Reply from user2 to user1",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000003",
+      "senderID": "1",
+      "receiverID": "3",
+      "message_text": "Hello from user1 to user3",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000004",
+      "senderID": "3",
+      "receiverID": "2",
+      "message_text": "Reply from user3 to user2",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000005",
+      "senderID": "5",
+      "receiverID": "6",
+      "message_text": "Hello from user5 to user6",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000006",
+      "senderID": "6",
+      "receiverID": "7",
+      "message_text": "Reply from user6 to user7",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000007",
+      "senderID": "7",
+      "receiverID": "8",
+      "message_text": "Hello from user7 to user8",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000008",
+      "senderID": "8",
+      "receiverID": "5",
+      "message_text": "Reply from user8 to user5",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000009",
+      "senderID": "9",
+      "receiverID": "10",
+      "message_text": "Hello from user9 to user10",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000010",
+      "senderID": "10",
+      "receiverID": "11",
+      "message_text": "Reply from user10 to user11",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000011",
+      "senderID": "11",
+      "receiverID": "12",
+      "message_text": "Hello from user11 to user12",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000012",
+      "senderID": "12",
+      "receiverID": "9",
+      "message_text": "Reply from user12 to user9",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000013",
+      "senderID": "13",
+      "receiverID": "14",
+      "message_text": "Hello from user13 to user14",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000014",
+      "senderID": "14",
+      "receiverID": "15",
+      "message_text": "Reply from user14 to user15",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000015",
+      "senderID": "15",
+      "receiverID": "16",
+      "message_text": "Hello from user15 to user16",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000016",
+      "senderID": "16",
+      "receiverID": "13",
+      "message_text": "Reply from user16 to user13",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000017",
+      "senderID": "17",
+      "receiverID": "18",
+      "message_text": "Hi John, how are you?",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000018",
+      "senderID": "18",
+      "receiverID": "19",
+      "message_text": "Hey Jane, let us catch up!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000019",
+      "senderID": "19",
+      "receiverID": "20",
+      "message_text": "Hi Sam, got any travel plans?",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000020",
+      "senderID": "20",
+      "receiverID": "17",
+      "message_text": "Hello Emily, your photos are amazing!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000021",
+      "senderID": "21",
+      "receiverID": "22",
+      "message_text": "Hi Alex, let us collaborate!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000022",
+      "senderID": "22",
+      "receiverID": "23",
+      "message_text": "Lisa, I need that recipe!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000023",
+      "senderID": "23",
+      "receiverID": "24",
+      "message_text": "Tom, can you share your workout routine?",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000024",
+      "senderID": "24",
+      "receiverID": "21",
+      "message_text": "Olivia, your nature photos are inspiring!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000025",
+      "senderID": "25",
+      "receiverID": "27",
+      "message_text": "Hi Michael, let us collaborate on coding projects!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000026",
+      "senderID": "26",
+      "receiverID": "28",
+      "message_text": "Lisa, I need that recipe!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000027",
+      "senderID": "27",
+      "receiverID": "29",
+      "message_text": "David, share the latest tech news!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000028",
+      "senderID": "28",
+      "receiverID": "30",
+      "message_text": "Olivia, your art is inspiring!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000029",
+      "senderID": "29",
+      "receiverID": "31",
+      "message_text": "James, recommend more books!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000030",
+      "senderID": "30",
+      "receiverID": "32",
+      "message_text": "Emma, tell me about your travel experiences!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000031",
+      "senderID": "31",
+      "receiverID": "33",
+      "message_text": "William, more fitness tips, please!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000032",
+      "senderID": "32",
+      "receiverID": "34",
+      "message_text": "Ava, your photography is incredible!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000033",
+      "senderID": "33",
+      "receiverID": "35",
+      "message_text": "Samuel, coding advice needed!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000034",
+      "senderID": "34",
+      "receiverID": "36",
+      "message_text": "Hannah, beauty tips for an event?",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000035",
+      "senderID": "35",
+      "receiverID": "37",
+      "message_text": "Benjamin, music recommendations!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000036",
+      "senderID": "36",
+      "receiverID": "38",
+      "message_text": "Zoey, tell us more about your pets!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000037",
+      "senderID": "37",
+      "receiverID": "39",
+      "message_text": "Logan, recommend some games!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000038",
+      "senderID": "38",
+      "receiverID": "40",
+      "message_text": "Grace, fashion advice needed!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000039",
+      "senderID": "39",
+      "receiverID": "41",
+      "message_text": "Ryan, share sports highlights!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000040",
+      "senderID": "40",
+      "receiverID": "42",
+      "message_text": "Sophia, movie recommendations!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000041",
+      "senderID": "41",
+      "receiverID": "43",
+      "message_text": "Daniel, outdoor adventure suggestions!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000042",
+      "senderID": "42",
+      "receiverID": "44",
+      "message_text": "Lily, DIY project guidance!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000043",
+      "senderID": "43",
+      "receiverID": "41",
+      "message_text": "Ethan, tech insights discussion!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000044",
+      "senderID": "44",
+      "receiverID": "42",
+      "message_text": "Mia, wellness tips discussion!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000045",
+      "senderID": "45",
+      "receiverID": "47",
+      "message_text": "Hi Noah, let us collaborate on coding projects!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000046",
+      "senderID": "46",
+      "receiverID": "48",
+      "message_text": "Mia, I need that dessert recipe!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000047",
+      "senderID": "47",
+      "receiverID": "49",
+      "message_text": "Oliver, share the latest science news!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000048",
+      "senderID": "48",
+      "receiverID": "50",
+      "message_text": "Emma, your art is inspiring!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000049",
+      "senderID": "49",
+      "receiverID": "51",
+      "message_text": "Liam, recommend more books!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000050",
+      "senderID": "50",
+      "receiverID": "52",
+      "message_text": "Ava, tell me about your travel experiences!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000051",
+      "senderID": "51",
+      "receiverID": "53",
+      "message_text": "Ethan, more coding tips, please!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000052",
+      "senderID": "52",
+      "receiverID": "54",
+      "message_text": "Isabella, your fashion updates are fantastic!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000053",
+      "senderID": "53",
+      "receiverID": "55",
+      "message_text": "Aiden, fitness tips discussion!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000054",
+      "senderID": "54",
+      "receiverID": "51",
+      "message_text": "Olivia, beauty tips discussion!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000055",
+      "senderID": "55",
+      "receiverID": "57",
+      "message_text": "Hi Emma, let us collaborate on coding projects!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000056",
+      "senderID": "56",
+      "receiverID": "58",
+      "message_text": "Jacob, I need travel advice!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000057",
+      "senderID": "57",
+      "receiverID": "59",
+      "message_text": "Olivia, share more tech insights!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000058",
+      "senderID": "58",
+      "receiverID": "60",
+      "message_text": "William, your art is inspiring!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000059",
+      "senderID": "59",
+      "receiverID": "61",
+      "message_text": "Sophia, discuss more book reviews!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000060",
+      "senderID": "60",
+      "receiverID": "62",
+      "message_text": "Jackson, share your cooking experiments!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000061",
+      "senderID": "61",
+      "receiverID": "63",
+      "message_text": "Olivia, fitness tips discussion!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000062",
+      "senderID": "62",
+      "receiverID": "64",
+      "message_text": "Ethan, photography insights discussion!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000063",
+      "senderID": "63",
+      "receiverID": "64",
+      "message_text": "Ava, coding projects discussion!",
+      "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000064",
+      "senderID": "64",
+      "receiverID": "61",
+      "message_text": "Logan, gaming recommendations!",
+      "timestamp": "NOW()"
+    }
   ],
   "notifications": [
-    { "notificationID": "10000001", "userID": "1", "content": "You have a new notification", "timestamp": "2026-01-01T10:15:00.000Z" }
+    {
+      "notificationID": "10000001",
+      "userID": "1",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000002",
+      "userID": "2",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000003",
+      "userID": "1",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000004",
+      "userID": "3",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000005",
+      "userID": "5",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000006",
+      "userID": "6",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000007",
+      "userID": "7",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000008",
+      "userID": "8",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000009",
+      "userID": "9",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000010",
+      "userID": "10",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000011",
+      "userID": "11",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000012",
+      "userID": "12",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000013",
+      "userID": "13",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000014",
+      "userID": "14",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000015",
+      "userID": "15",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000016",
+      "userID": "16",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000017",
+      "userID": "17",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000018",
+      "userID": "18",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000019",
+      "userID": "19",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000020",
+      "userID": "20",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000021",
+      "userID": "21",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000022",
+      "userID": "22",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000023",
+      "userID": "23",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000024",
+      "userID": "24",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000025",
+      "userID": "25",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000026",
+      "userID": "26",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000027",
+      "userID": "27",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000028",
+      "userID": "28",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000029",
+      "userID": "29",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000030",
+      "userID": "30",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000031",
+      "userID": "31",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000032",
+      "userID": "32",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000033",
+      "userID": "33",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000034",
+      "userID": "34",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000035",
+      "userID": "35",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000036",
+      "userID": "36",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000037",
+      "userID": "37",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000038",
+      "userID": "38",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000039",
+      "userID": "39",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000040",
+      "userID": "40",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000041",
+      "userID": "41",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000042",
+      "userID": "42",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000043",
+      "userID": "43",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000044",
+      "userID": "44",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000045",
+      "userID": "45",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000046",
+      "userID": "46",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000047",
+      "userID": "47",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000048",
+      "userID": "48",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000049",
+      "userID": "49",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000050",
+      "userID": "50",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000051",
+      "userID": "51",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000052",
+      "userID": "52",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000053",
+      "userID": "53",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000054",
+      "userID": "54",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000055",
+      "userID": "55",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000056",
+      "userID": "56",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000057",
+      "userID": "57",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000058",
+      "userID": "58",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000059",
+      "userID": "59",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000060",
+      "userID": "60",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000061",
+      "userID": "61",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000062",
+      "userID": "62",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000063",
+      "userID": "63",
+      "content": "You have a new notification",
+      "timestamp": "NOW()"
+    },
+    {
+      "notificationID": "10000064",
+      "userID": "64",
+      "content": "Another notification for you",
+      "timestamp": "NOW()"
+    }
   ],
   "groups": [
-    { "groupID": "1001", "groupName": "Group 1", "adminID": "1" }
-  ],
-  "group_members": [
-    { "groupID": "1001", "userID": "1" },
-    { "groupID": "1001", "userID": "2" }
-  ],
-  "group_messages": [
-    { "groupMessageID": "1", "groupID": "1001", "userID": "1", "message_text": "Welcome to Group 1", "timestamp": "2026-01-01T10:20:00.000Z" }
+    {
+      "groupID": "1001",
+      "groupName": "Group 1",
+      "adminID": "1"
+    },
+    {
+      "groupID": "1002",
+      "groupName": "Group 2",
+      "adminID": "2"
+    },
+    {
+      "groupID": "1003",
+      "groupName": "Group 3",
+      "adminID": "3"
+    },
+    {
+      "groupID": "1004",
+      "groupName": "Group 4",
+      "adminID": "4"
+    },
+    {
+      "groupID": "1005",
+      "groupName": "Group 5",
+      "adminID": "5"
+    },
+    {
+      "groupID": "1006",
+      "groupName": "Group 6",
+      "adminID": "6"
+    },
+    {
+      "groupID": "1007",
+      "groupName": "Group 7",
+      "adminID": "7"
+    },
+    {
+      "groupID": "1008",
+      "groupName": "Group 8",
+      "adminID": "8"
+    },
+    {
+      "groupID": "1009",
+      "groupName": "Group 9",
+      "adminID": "9"
+    },
+    {
+      "groupID": "1010",
+      "groupName": "Group 10",
+      "adminID": "10"
+    },
+    {
+      "groupID": "1011",
+      "groupName": "Group 11",
+      "adminID": "11"
+    },
+    {
+      "groupID": "1012",
+      "groupName": "Group 12",
+      "adminID": "12"
+    },
+    {
+      "groupID": "1013",
+      "groupName": "Group 13",
+      "adminID": "13"
+    },
+    {
+      "groupID": "1014",
+      "groupName": "Group 14",
+      "adminID": "14"
+    },
+    {
+      "groupID": "1015",
+      "groupName": "Group 15",
+      "adminID": "15"
+    },
+    {
+      "groupID": "1016",
+      "groupName": "Group 16",
+      "adminID": "16"
+    },
+    {
+      "groupID": "1017",
+      "groupName": "Tech Enthusiasts",
+      "adminID": "17"
+    },
+    {
+      "groupID": "1018",
+      "groupName": "Travel Lovers",
+      "adminID": "18"
+    },
+    {
+      "groupID": "1019",
+      "groupName": "Photography Club",
+      "adminID": "19"
+    },
+    {
+      "groupID": "1020",
+      "groupName": "Fitness Freaks",
+      "adminID": "20"
+    },
+    {
+      "groupID": "1021",
+      "groupName": "Coding Enthusiasts",
+      "adminID": "21"
+    },
+    {
+      "groupID": "1022",
+      "groupName": "Foodies Club",
+      "adminID": "22"
+    },
+    {
+      "groupID": "1023",
+      "groupName": "Fitness Freaks",
+      "adminID": "23"
+    },
+    {
+      "groupID": "1024",
+      "groupName": "Nature Explorers",
+      "adminID": "24"
+    },
+    {
+      "groupID": "1025",
+      "groupName": "Programming Wizards",
+      "adminID": "25"
+    },
+    {
+      "groupID": "1026",
+      "groupName": "Cooking Enthusiasts",
+      "adminID": "26"
+    },
+    {
+      "groupID": "1027",
+      "groupName": "Tech Innovators",
+      "adminID": "27"
+    },
+    {
+      "groupID": "1028",
+      "groupName": "Art Creators",
+      "adminID": "28"
+    },
+    {
+      "groupID": "1029",
+      "groupName": "Book Club",
+      "adminID": "29"
+    },
+    {
+      "groupID": "1030",
+      "groupName": "Wanderlust Explorers",
+      "adminID": "30"
+    },
+    {
+      "groupID": "1031",
+      "groupName": "Fitness Gurus",
+      "adminID": "31"
+    },
+    {
+      "groupID": "1032",
+      "groupName": "Photography Enthusiasts",
+      "adminID": "32"
+    },
+    {
+      "groupID": "1033",
+      "groupName": "Code Masters",
+      "adminID": "33"
+    },
+    {
+      "groupID": "1034",
+      "groupName": "Beauty Admirers",
+      "adminID": "34"
+    },
+    {
+      "groupID": "1035",
+      "groupName": "Music Lovers",
+      "adminID": "35"
+    },
+    {
+      "groupID": "1036",
+      "groupName": "Pet Admirers",
+      "adminID": "36"
+    },
+    {
+      "groupID": "1037",
+      "groupName": "Gaming Community",
+      "adminID": "37"
+    },
+    {
+      "groupID": "1038",
+      "groupName": "Fashionistas",
+      "adminID": "38"
+    },
+    {
+      "groupID": "1039",
+      "groupName": "Sports Fanatics",
+      "adminID": "39"
+    },
+    {
+      "groupID": "1040",
+      "groupName": "Movie Buffs",
+      "adminID": "40"
+    },
+    {
+      "groupID": "1041",
+      "groupName": "Adventure Seekers",
+      "adminID": "41"
+    },
+    {
+      "groupID": "1042",
+      "groupName": "DIY Enthusiasts",
+      "adminID": "42"
+    },
+    {
+      "groupID": "1043",
+      "groupName": "Tech Talk",
+      "adminID": "43"
+    },
+    {
+      "groupID": "1044",
+      "groupName": "Wellness Warriors",
+      "adminID": "44"
+    },
+    {
+      "groupID": "1045",
+      "groupName": "Tech Enthusiasts 2.0",
+      "adminID": "45"
+    },
+    {
+      "groupID": "1046",
+      "groupName": "Dessert Lovers",
+      "adminID": "46"
+    },
+    {
+      "groupID": "1047",
+      "groupName": "Science Explorers",
+      "adminID": "47"
+    },
+    {
+      "groupID": "1048",
+      "groupName": "Artistic Minds",
+      "adminID": "48"
+    },
+    {
+      "groupID": "1049",
+      "groupName": "Bookworms",
+      "adminID": "49"
+    },
+    {
+      "groupID": "1050",
+      "groupName": "Travel Addicts",
+      "adminID": "50"
+    },
+    {
+      "groupID": "1051",
+      "groupName": "Code Wizards",
+      "adminID": "51"
+    },
+    {
+      "groupID": "1052",
+      "groupName": "Fashionistas 2.0",
+      "adminID": "52"
+    },
+    {
+      "groupID": "1053",
+      "groupName": "Fitness Fanatics",
+      "adminID": "53"
+    },
+    {
+      "groupID": "1054",
+      "groupName": "Beauty Admirers 2.0",
+      "adminID": "54"
+    },
+    {
+      "groupID": "1055",
+      "groupName": "Coding Enthusiasts 2.0",
+      "adminID": "55"
+    },
+    {
+      "groupID": "1056",
+      "groupName": "Adventure Seekers 2.0",
+      "adminID": "56"
+    },
+    {
+      "groupID": "1057",
+      "groupName": "Tech Talks",
+      "adminID": "57"
+    },
+    {
+      "groupID": "1058",
+      "groupName": "Artistic Minds 2.0",
+      "adminID": "58"
+    },
+    {
+      "groupID": "1059",
+      "groupName": "Book Club 2.0",
+      "adminID": "59"
+    },
+    {
+      "groupID": "1060",
+      "groupName": "Cooking Masters",
+      "adminID": "60"
+    },
+    {
+      "groupID": "1061",
+      "groupName": "Fitness Fanatics 2.0",
+      "adminID": "61"
+    },
+    {
+      "groupID": "1062",
+      "groupName": "Photography Lovers 2.0",
+      "adminID": "62"
+    },
+    {
+      "groupID": "1063",
+      "groupName": "Code Masters 2.0",
+      "adminID": "63"
+    },
+    {
+      "groupID": "1064",
+      "groupName": "Gaming Community 2.0",
+      "adminID": "64"
+    }
   ]
 }
