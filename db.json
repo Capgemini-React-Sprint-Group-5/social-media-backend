@@ -1673,6 +1673,12 @@
   ],
   "friends": [
     {
+      "friendshipID": "100001",
+      "userID1": "1",
+      "userID2": "2",
+      "status": "accepted"
+    },
+    {
       "friendshipID": "100002",
       "userID1": "2",
       "userID2": "3",
