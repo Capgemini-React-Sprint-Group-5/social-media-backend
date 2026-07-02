@@ -13,9 +13,10 @@ router.get("/all", (req, res) => {
 
 router.get("/search/:username", (req, res) => {
   const db = readDB();
-  const user = db.users.find((u) => u.username === req.params.username);
-  if (!user) return fail(res, 404, "User not found.");
-  success(res, { data: user });
+  const users = db.users.filter((u) =>
+    u.username.toLowerCase() === req.params.username.toLowerCase()
+  );
+  success(res, { data: users });
 });
 
 router.get("/:userId", (req, res) => {
@@ -122,7 +123,7 @@ router.get("/:userId/friend-requests/pending", (req, res) => {
   const data = db.friends.filter(
     (f) =>
       f.status === "pending" &&
-      (String(f.userID1) === userId || String(f.userID2) === userId),
+      String(f.userID2) === String(userId)
   );
   success(res, { data });
 });
@@ -130,6 +131,16 @@ router.get("/:userId/friend-requests/pending", (req, res) => {
 router.post("/:userId/friend-requests/send/:friendId", (req, res) => {
   const db = readDB();
   const { userId, friendId } = req.params;
+  const existing = db.friends.find(
+    (f) =>
+      (String(f.userID1) === userId &&
+        String(f.userID2) === friendId) ||
+      (String(f.userID1) === friendId &&
+        String(f.userID2) === userId)
+  );
+  if (existing) {
+    return fail(res, 409, "Friend request already exists.");
+  }
   db.friends.push({
     friendshipID: genId(),
     userID1: userId,

@@ -1697,22 +1697,10 @@
       "status": "accepted"
     },
     {
-      "friendshipID": "100005",
-      "userID1": "5",
-      "userID2": "7",
-      "status": "accepted"
-    },
-    {
       "friendshipID": "100006",
       "userID1": "6",
       "userID2": "8",
       "status": "pending"
-    },
-    {
-      "friendshipID": "100007",
-      "userID1": "7",
-      "userID2": "5",
-      "status": "accepted"
     },
     {
       "friendshipID": "100008",
@@ -2045,16 +2033,28 @@
       "status": "accepted"
     },
     {
-      "friendshipID": "100063",
-      "userID1": "63",
+      "friendshipID": "100064",
+      "userID1": "64",
       "userID2": "63",
       "status": "accepted"
     },
     {
-      "friendshipID": "100064",
-      "userID1": "64",
-      "userID2": "63",
+      "friendshipID": "mr3cunmdf105",
+      "userID1": "1",
+      "userID2": "6",
       "status": "pending"
+    },
+    {
+      "friendshipID": "mr3dbsoebm2d",
+      "userID1": "7",
+      "userID2": "2",
+      "status": "pending"
+    },
+    {
+      "friendshipID": "mr3dfyeex5py",
+      "userID1": "5",
+      "userID2": "4",
+      "status": "accepted"
     }
   ],
   "messages": [
