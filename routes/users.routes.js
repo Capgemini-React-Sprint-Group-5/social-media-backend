@@ -170,6 +170,38 @@ router.get("/:userId/friends/groups", (req, res) => {
   success(res, { data });
 });
 
+router.get("/:userId/friend-requests/sent", (req, res) => {
+  const db = readDB();
+  const { userId } = req.params;
+  const data = db.friends.filter(
+    (f) =>
+      f.status === "pending" &&
+      String(f.userID1) === String(userId)
+  );
+  success(res, { data });
+});
+
+router.delete("/:userId/friend-requests/cancel/:friendId", (req, res) => {
+  const db = readDB();
+  const { userId, friendId } = req.params;
+  const before = db.friends.length;
+  db.friends = db.friends.filter(
+    (f) =>
+      !(
+        f.status === "pending" &&
+        String(f.userID1) === String(userId) &&
+        String(f.userID2) === String(friendId)
+      )
+  );
+  if (before === db.friends.length) {
+    return fail(res, 404, "Friend request not found.");
+  }
+  writeDB(db);
+  success(res, {
+    message: "Friend request cancelled successfully.",
+  });
+});
+
 // ── Posts / comments / likes authored/received by this user ─────────────
 
 router.get("/:userId/posts", (req, res) => {
