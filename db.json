@@ -5,21 +5,32 @@
       "username": "user1",
       "email": "user1@example.com",
       "password": "password1",
-      "profile_picture": "profile1.jpg"
+      "profile_picture": "profile1.jpg",
+      "groups": [
+        "1001",
+        "1003",
+        "1005",
+        "1004"
+      ]
     },
     {
       "userID": "2",
       "username": "user2",
       "email": "user2@example.com",
       "password": "password2",
-      "profile_picture": "profile2.jpg"
+      "profile_picture": "profile2.jpg",
+      "groups": [
+        "1001",
+        "1003"
+      ]
     },
     {
       "userID": "3",
       "username": "user3",
       "email": "user3@example.com",
       "password": "password3",
-      "profile_picture": "profile3.jpg"
+      "profile_picture": "profile3.jpg",
+      "groups": []
     },
     {
       "userID": "4",
@@ -33,7 +44,10 @@
       "username": "user5",
       "email": "user5@example.com",
       "password": "password5",
-      "profile_picture": "profile5.jpg"
+      "profile_picture": "profile5.jpg",
+      "groups": [
+        "1005"
+      ]
     },
     {
       "userID": "6",
@@ -2903,27 +2917,37 @@
     {
       "groupID": "1001",
       "groupName": "Group 1",
-      "adminID": "1"
-    },
-    {
-      "groupID": "1002",
-      "groupName": "Group 2",
-      "adminID": "2"
+      "adminID": "1",
+      "members": [
+        "2",
+        "1"
+      ]
     },
     {
       "groupID": "1003",
       "groupName": "Group 3",
-      "adminID": "3"
+      "adminID": "3",
+      "members": [
+        "2",
+        "1"
+      ]
     },
     {
       "groupID": "1004",
       "groupName": "Group 4",
-      "adminID": "4"
+      "adminID": "4",
+      "members": [
+        "1"
+      ]
     },
     {
       "groupID": "1005",
       "groupName": "Group 5",
-      "adminID": "5"
+      "adminID": "5",
+      "members": [
+        "5",
+        "1"
+      ]
     },
     {
       "groupID": "1006",
@@ -3219,6 +3243,57 @@
       "groupID": "1064",
       "groupName": "Gaming Community 2.0",
       "adminID": "64"
+    }
+  ],
+  "group_messages": [
+    {
+      "groupMessageID": "mr4gyercg0dt",
+      "groupID": "1005",
+      "userID": "5",
+      "message_text": "Hii",
+      "timestamp": "2026-07-03T05:04:37.176Z"
+    },
+    {
+      "groupMessageID": "mr4gykf5k67w",
+      "groupID": "1005",
+      "userID": "5",
+      "message_text": "Hello",
+      "timestamp": "2026-07-03T05:04:44.513Z"
+    },
+    {
+      "groupMessageID": "mr4gz5m3mazp",
+      "groupID": "1005",
+      "userID": "5",
+      "message_text": "Hii",
+      "timestamp": "2026-07-03T05:05:11.979Z"
+    },
+    {
+      "groupMessageID": "mr4he4h7ib0d",
+      "groupID": "1001",
+      "userID": "1",
+      "message_text": "Hii",
+      "timestamp": "2026-07-03T05:16:50.347Z"
+    },
+    {
+      "groupMessageID": "mr4hf68z9plh",
+      "groupID": "1001",
+      "userID": "2",
+      "message_text": "Hello",
+      "timestamp": "2026-07-03T05:17:39.299Z"
+    },
+    {
+      "groupMessageID": "mr4hn1sjtikm",
+      "groupID": "1003",
+      "userID": "1",
+      "message_text": "Hii",
+      "timestamp": "2026-07-03T05:23:46.771Z"
+    },
+    {
+      "groupMessageID": "mr4ho7jaqs45",
+      "groupID": "1003",
+      "userID": "2",
+      "message_text": "Hello",
+      "timestamp": "2026-07-03T05:24:40.870Z"
     }
   ]
 }

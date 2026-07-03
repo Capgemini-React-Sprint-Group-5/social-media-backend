@@ -25,14 +25,25 @@ const findUser = (db, userId) =>
 
 router.get("/", (req, res) => {
   const db = readDB();
-  success(res, { data: db.groups });
+  const data = db.groups.map((g) => {
+    const ids = memberIds(g).map(String);
+    if (g.adminID && !ids.includes(String(g.adminID))) {
+      ids.push(String(g.adminID));
+    }
+    return { ...g, members: ids.map(Number) };
+  });
+  success(res, { data });
 });
 
 router.get("/:groupId", (req, res) => {
   const db = readDB();
   const group = findGroup(db, req.params.groupId);
   if (!group) return fail(res, 404, "Group not found.");
-  success(res, { data: group });
+  const ids = memberIds(group).map(String);
+  if (group.adminID && !ids.includes(String(group.adminID))) {
+    ids.push(String(group.adminID));
+  }
+  success(res, { data: { ...group, members: ids.map(Number) } });
 });
 
 router.post("/", (req, res) => {
@@ -50,7 +61,7 @@ router.post("/", (req, res) => {
   if (admin) userGroupIds(admin).push(groupID);
 
   writeDB(db);
-  success(res, { message: "Groups created successfully." }, 201);
+  success(res, { message: "Groups created successfully.", data: newGroup }, 201);
 });
 
 router.put("/:groupId", (req, res) => {
@@ -93,6 +104,9 @@ router.get("/:groupId/members", (req, res) => {
   const group = findGroup(db, req.params.groupId);
   if (!group) return fail(res, 404, "Group not found.");
   const ids = memberIds(group).map(String);
+  if (group.adminID && !ids.includes(String(group.adminID))) {
+    ids.push(String(group.adminID));
+  }
   const data = db.users.filter((u) => ids.includes(String(u.userID)));
   success(res, { data });
 });
@@ -163,9 +177,15 @@ router.delete("/:groupId/leave/:userId", (req, res) => {
 
 router.get("/:groupId/messages", (req, res) => {
   const db = readDB();
-  const data = (db.group_messages || []).filter(
+  const rawMessages = (db.group_messages || []).filter(
     (m) => String(m.groupID) === req.params.groupId,
   );
+  const data = rawMessages.map((m) => ({
+    ...m,
+    senderID: m.userID || m.senderID,
+    messageID: m.groupMessageID || m.id,
+    id: m.groupMessageID || m.id,
+  }));
   success(res, { data });
 });
 
