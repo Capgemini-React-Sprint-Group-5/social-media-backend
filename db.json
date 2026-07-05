@@ -1675,6 +1675,12 @@
       "postID": "103",
       "userID": "1",
       "timestamp": "2026-07-05T10:20:04.463Z"
+    },
+    {
+      "likeID": "mr7no15v7ypt",
+      "postID": "101",
+      "userID": "3",
+      "timestamp": "2026-07-05T10:35:48.835Z"
     }
   ],
   "friends": [
@@ -2574,6 +2580,13 @@
       "receiverID": "3",
       "message_text": "how are you ?",
       "timestamp": "2026-07-05T10:20:00.051Z"
+    },
+    {
+      "messageID": "mr7no60y1c5v",
+      "senderID": "3",
+      "receiverID": "1",
+      "message_text": "fine",
+      "timestamp": "2026-07-05T10:35:55.138Z"
     }
   ],
   "notifications": [
