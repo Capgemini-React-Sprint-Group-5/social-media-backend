@@ -1,145 +1,213 @@
-import { Router } from 'express'
-import { readDB, writeDB, genId } from '../utils/db.js'
-import { success, fail } from '../utils/respond.js'
+import { Router } from "express";
+import { readDB, writeDB, genId } from "../utils/db.js";
+import { success, fail } from "../utils/respond.js";
 
-// Mounted at /api/groups
-// NOTE: the ER diagram has no membership/group-message tables, so this
-// backend adds two small collections to db.json to back them:
-// group_members: [{ groupID, userID }], group_messages: [{ groupMessageID, groupID, userID, message_text, timestamp }]
+const router = Router();
 
-const router = Router()
+/** Ensure group.members exists and return it. */
+const memberIds = (group) => {
+  if (!Array.isArray(group.members)) group.members = [];
+  return group.members;
+};
 
-router.get('/', (req, res) => {
-  const db = readDB()
-  success(res, { data: db.groups })
-})
+/** Ensure user.groups exists and return it. */
+const userGroupIds = (user) => {
+  if (!Array.isArray(user.groups)) user.groups = [];
+  return user.groups;
+};
 
-router.get('/:groupId', (req, res) => {
-  const db = readDB()
-  const group = db.groups.find((g) => String(g.groupID) === req.params.groupId)
-  if (!group) return fail(res, 404, 'Group not found.')
-  success(res, { data: group })
-})
+const findGroup = (db, groupId) =>
+  db.groups.find((g) => String(g.groupID) === groupId);
+const findUser = (db, userId) =>
+  db.users.find((u) => String(u.userID) === userId);
 
-router.post('/', (req, res) => {
-  const db = readDB()
-  db.groups.push({ groupID: genId(), ...req.body })
-  writeDB(db)
-  success(res, { message: 'Groups created successfully.' }, 201)
-})
+// ── Group CRUD ────────────────────────────────────────────────────────
 
-router.put('/:groupId', (req, res) => {
-  const db = readDB()
-  const group = db.groups.find((g) => String(g.groupID) === req.params.groupId)
-  if (!group) return fail(res, 404, 'Group not found.')
-  Object.assign(group, req.body)
-  writeDB(db)
-  success(res, { message: 'Groups updated successfully.' })
-})
+router.get("/", (req, res) => {
+  const db = readDB();
+  success(res, { data: db.groups });
+});
 
-router.delete('/:groupId', (req, res) => {
-  const db = readDB()
-  const before = db.groups.length
-  db.groups = db.groups.filter((g) => String(g.groupID) !== req.params.groupId)
-  if (db.groups.length === before) return fail(res, 404, 'Group not found.')
-  writeDB(db)
-  success(res, { message: 'Groups deleted successfully.' })
-})
+router.get("/:groupId", (req, res) => {
+  const db = readDB();
+  const group = findGroup(db, req.params.groupId);
+  if (!group) return fail(res, 404, "Group not found.");
+  success(res, { data: group });
+});
 
-// ── Membership ────────────────────────────────────────────────────────
+router.post("/", (req, res) => {
+  const db = readDB();
+  const { adminID } = req.body;
+  const admin = adminID ? findUser(db, String(adminID)) : null;
+  if (adminID && !admin) return fail(res, 404, "Admin user not found.");
 
-router.get('/:groupId/members', (req, res) => {
-  const db = readDB()
-  const memberIds = db.group_members
-    .filter((m) => String(m.groupID) === req.params.groupId)
-    .map((m) => String(m.userID))
-  const data = db.users.filter((u) => memberIds.includes(String(u.userID)))
-  success(res, { data })
-})
+  const groupID = genId();
+  const newGroup = { groupID, ...req.body, members: [] };
+  if (adminID) memberIds(newGroup).push(adminID);
+  db.groups.push(newGroup);
 
-router.post('/:groupId/members/add/:userId', (req, res) => {
-  const db = readDB()
-  const { groupId, userId } = req.params
-  const already = db.group_members.some((m) => String(m.groupID) === groupId && String(m.userID) === userId)
-  if (already) return fail(res, 409, 'User is already a member of this group.')
-  db.group_members.push({ groupID: groupId, userID: userId })
-  writeDB(db)
-  success(res, { message: 'User successfully added to the group.' }, 201)
-})
+  // creator is automatically a member
+  if (admin) userGroupIds(admin).push(groupID);
 
-router.delete('/:groupId/members/remove/:userId', (req, res) => {
-  const db = readDB()
-  const before = db.group_members.length
-  db.group_members = db.group_members.filter(
-    (m) => !(String(m.groupID) === req.params.groupId && String(m.userID) === req.params.userId)
-  )
-  if (db.group_members.length === before) return fail(res, 404, 'Membership not found.')
-  writeDB(db)
-  success(res, { message: 'User successfully removed from the group.' })
-})
+  writeDB(db);
+  success(res, { message: "Groups created successfully." }, 201);
+});
 
-// join/leave — aliases over the same membership records as above
-router.post('/:groupId/join/:userId', (req, res) => {
-  const db = readDB()
-  const { groupId, userId } = req.params
-  const already = db.group_members.some((m) => String(m.groupID) === groupId && String(m.userID) === userId)
-  if (already) return fail(res, 409, 'User is already a member of this group.')
-  db.group_members.push({ groupID: groupId, userID: userId })
-  writeDB(db)
-  success(res, { message: 'User successfully joined the group.' }, 201)
-})
+router.put("/:groupId", (req, res) => {
+  const db = readDB();
+  const group = findGroup(db, req.params.groupId);
+  if (!group) return fail(res, 404, "Group not found.");
+  const { members, ...fields } = req.body; // membership isn't edited through this route
+  Object.assign(group, fields);
+  writeDB(db);
+  success(res, { message: "Groups updated successfully." });
+});
 
-router.delete('/:groupId/leave/:userId', (req, res) => {
-  const db = readDB()
-  const before = db.group_members.length
-  db.group_members = db.group_members.filter(
-    (m) => !(String(m.groupID) === req.params.groupId && String(m.userID) === req.params.userId)
-  )
-  if (db.group_members.length === before) return fail(res, 404, 'Membership not found.')
-  writeDB(db)
-  success(res, { message: 'User successfully left the group.' })
-})
+router.delete("/:groupId", (req, res) => {
+  const db = readDB();
+  const group = findGroup(db, req.params.groupId);
+  if (!group) return fail(res, 404, "Group not found.");
+
+  // clean up the groupID from every member's user.groups array
+  memberIds(group).forEach((userId) => {
+    const user = findUser(db, String(userId));
+    if (user) {
+      user.groups = userGroupIds(user).filter(
+        (id) => String(id) !== req.params.groupId,
+      );
+    }
+  });
+
+  db.groups = db.groups.filter((g) => String(g.groupID) !== req.params.groupId);
+  db.group_messages = (db.group_messages || []).filter(
+    (m) => String(m.groupID) !== req.params.groupId,
+  );
+  writeDB(db);
+  success(res, { message: "Groups deleted successfully." });
+});
+
+// ── Membership (embedded id arrays) ─────────────────────────────────────
+
+router.get("/:groupId/members", (req, res) => {
+  const db = readDB();
+  const group = findGroup(db, req.params.groupId);
+  if (!group) return fail(res, 404, "Group not found.");
+  const ids = memberIds(group).map(String);
+  const data = db.users.filter((u) => ids.includes(String(u.userID)));
+  success(res, { data });
+});
+
+const addMember = (req, res) => {
+  const db = readDB();
+  const { groupId, userId } = req.params;
+  const group = findGroup(db, groupId);
+  if (!group) return fail(res, 404, "Group not found.");
+  const user = findUser(db, userId);
+  if (!user) return fail(res, 404, "User not found.");
+
+  const gMembers = memberIds(group);
+  if (gMembers.map(String).includes(userId)) {
+    return fail(res, 409, "User is already a member of this group.");
+  }
+  gMembers.push(userId);
+  userGroupIds(user).push(group.groupID);
+  writeDB(db);
+  return { user, group };
+};
+
+const removeMember = (req, res) => {
+  const db = readDB();
+  const { groupId, userId } = req.params;
+  const group = findGroup(db, groupId);
+  if (!group) return fail(res, 404, "Group not found.");
+
+  const gMembers = memberIds(group);
+  const before = gMembers.length;
+  group.members = gMembers.filter((id) => String(id) !== userId);
+  if (group.members.length === before)
+    return fail(res, 404, "Membership not found.");
+
+  const user = findUser(db, userId);
+  if (user) {
+    user.groups = userGroupIds(user).filter((id) => String(id) !== groupId);
+  }
+  writeDB(db);
+  return true;
+};
+
+router.post("/:groupId/members/add/:userId", (req, res) => {
+  const result = addMember(req, res);
+  if (result)
+    success(res, { message: "User successfully added to the group." }, 201);
+});
+
+router.delete("/:groupId/members/remove/:userId", (req, res) => {
+  const result = removeMember(req, res);
+  if (result)
+    success(res, { message: "User successfully removed from the group." });
+});
+
+// join/leave — same underlying arrays as add/remove above
+router.post("/:groupId/join/:userId", (req, res) => {
+  const result = addMember(req, res);
+  if (result)
+    success(res, { message: "User successfully joined the group." }, 201);
+});
+
+router.delete("/:groupId/leave/:userId", (req, res) => {
+  const result = removeMember(req, res);
+  if (result) success(res, { message: "User successfully left the group." });
+});
 
 // ── Group messages ───────────────────────────────────────────────────
 
-router.get('/:groupId/messages', (req, res) => {
-  const db = readDB()
-  const data = db.group_messages.filter((m) => String(m.groupID) === req.params.groupId)
-  success(res, { data })
-})
+router.get("/:groupId/messages", (req, res) => {
+  const db = readDB();
+  const data = (db.group_messages || []).filter(
+    (m) => String(m.groupID) === req.params.groupId,
+  );
+  success(res, { data });
+});
 
-router.post('/:groupId/messages/send/:userId', (req, res) => {
-  const db = readDB()
-  const { groupId, userId } = req.params
+router.post("/:groupId/messages/send/:userId", (req, res) => {
+  const db = readDB();
+  const group = findGroup(db, req.params.groupId);
+  if (!group) return fail(res, 404, "Group not found.");
+
+  db.group_messages = db.group_messages || [];
   db.group_messages.push({
     groupMessageID: genId(),
-    groupID: groupId,
-    userID: userId,
+    groupID: req.params.groupId,
+    userID: req.params.userId,
     message_text: req.body.message_text,
     timestamp: new Date().toISOString(),
-  })
-  writeDB(db)
-  success(res, { message: 'Message sent to the group successfully.' }, 201)
-})
+  });
+  writeDB(db);
+  success(res, { message: "Message sent to the group successfully." }, 201);
+});
 
-// Friends who are members of this group. Pass ?userId=<id> to scope "whose
-// friends" — without it, this just returns every member.
-router.get('/:groupId/friends', (req, res) => {
-  const db = readDB()
-  const { groupId } = req.params
-  const { userId } = req.query
-  const memberIds = db.group_members.filter((m) => String(m.groupID) === groupId).map((m) => String(m.userID))
+router.get("/:groupId/friends", (req, res) => {
+  const db = readDB();
+  const group = findGroup(db, req.params.groupId);
+  if (!group) return fail(res, 404, "Group not found.");
+  const { userId } = req.query;
+  const ids = memberIds(group).map(String);
 
   if (!userId) {
-    const data = db.users.filter((u) => memberIds.includes(String(u.userID)))
-    return success(res, { data })
+    const data = db.users.filter((u) => ids.includes(String(u.userID)));
+    return success(res, { data });
   }
 
   const friendIds = db.friends
     .filter((f) => String(f.userID1) === userId || String(f.userID2) === userId)
-    .map((f) => (String(f.userID1) === userId ? String(f.userID2) : String(f.userID1)))
-  const data = db.users.filter((u) => memberIds.includes(String(u.userID)) && friendIds.includes(String(u.userID)))
-  success(res, { data })
-})
+    .map((f) =>
+      String(f.userID1) === userId ? String(f.userID2) : String(f.userID1),
+    );
+  const data = db.users.filter(
+    (u) =>
+      ids.includes(String(u.userID)) && friendIds.includes(String(u.userID)),
+  );
+  success(res, { data });
+});
 
-export default router
+export default router;
