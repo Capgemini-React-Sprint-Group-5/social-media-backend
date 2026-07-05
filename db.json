@@ -447,12 +447,6 @@
       "email": "logan.adams@example.com",
       "password": "password64",
       "profile_picture": "logan_adams.jpg"
-    },
-    {
-      "userID": "mr3ew5ztdncm",
-      "username": "user65",
-      "email": "user65@example.com",
-      "password": "password65"
     }
   ],
   "posts": [
@@ -1679,34 +1673,16 @@
   ],
   "friends": [
     {
-      "friendshipID": "100001",
-      "userID1": "1",
-      "userID2": "2",
-      "status": "accepted"
-    },
-    {
       "friendshipID": "100002",
       "userID1": "2",
       "userID2": "3",
-      "status": "pending"
-    },
-    {
-      "friendshipID": "100003",
-      "userID1": "3",
-      "userID2": "1",
-      "status": "accepted"
-    },
-    {
-      "friendshipID": "100004",
-      "userID1": "4",
-      "userID2": "2",
       "status": "accepted"
     },
     {
       "friendshipID": "100006",
       "userID1": "6",
       "userID2": "8",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "friendshipID": "100008",
@@ -1715,22 +1691,10 @@
       "status": "accepted"
     },
     {
-      "friendshipID": "100009",
-      "userID1": "9",
-      "userID2": "11",
-      "status": "accepted"
-    },
-    {
       "friendshipID": "100010",
       "userID1": "10",
       "userID2": "12",
       "status": "pending"
-    },
-    {
-      "friendshipID": "100011",
-      "userID1": "11",
-      "userID2": "9",
-      "status": "accepted"
     },
     {
       "friendshipID": "100012",
@@ -2039,27 +2003,39 @@
       "status": "accepted"
     },
     {
-      "friendshipID": "100064",
+      "friendshipID": "100063",
       "userID1": "64",
       "userID2": "63",
       "status": "accepted"
     },
     {
-      "friendshipID": "mr3cunmdf105",
+      "friendshipID": "100064",
       "userID1": "1",
       "userID2": "6",
-      "status": "pending"
+      "status": "accepted"
     },
     {
-      "friendshipID": "mr3dbsoebm2d",
-      "userID1": "7",
-      "userID2": "2",
-      "status": "pending"
-    },
-    {
-      "friendshipID": "mr3dfyeex5py",
+      "friendshipID": "100065",
       "userID1": "5",
       "userID2": "4",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100066",
+      "userID1": "3",
+      "userID2": "9",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100067",
+      "userID1": "7",
+      "userID2": "4",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100068",
+      "userID1": "4",
+      "userID2": "1",
       "status": "accepted"
     }
   ],
@@ -2511,6 +2487,55 @@
       "receiverID": "61",
       "message_text": "Logan, gaming recommendations!",
       "timestamp": "NOW()"
+    },
+    {
+      "messageID": "1000065",
+      "senderID": "1",
+      "receiverID": "22",
+      "message_text": "Hiii",
+      "timestamp": "2026-07-02T18:42:27.243Z"
+    },
+    {
+      "messageID": "1000066",
+      "senderID": "1",
+      "receiverID": "6",
+      "message_text": "Hello!",
+      "timestamp": "2026-07-02T18:42:42.545Z"
+    },
+    {
+      "messageID": "1000067",
+      "senderID": "1",
+      "receiverID": "5",
+      "message_text": "Whats up dear",
+      "timestamp": "2026-07-02T18:42:58.380Z"
+    },
+    {
+      "messageID": "1000068",
+      "senderID": "1",
+      "receiverID": "6",
+      "message_text": "How are you?",
+      "timestamp": "2026-07-02T19:15:25.806Z"
+    },
+    {
+      "messageID": "1000069",
+      "senderID": "6",
+      "receiverID": "1",
+      "message_text": "Hiii",
+      "timestamp": "2026-07-02T19:15:49.484Z"
+    },
+    {
+      "messageID": "mr5g86adorhs",
+      "senderID": "4",
+      "receiverID": "5",
+      "message_text": "Hello",
+      "timestamp": "2026-07-03T21:31:59.317Z"
+    },
+    {
+      "messageID": "mr5g9ske7oa0",
+      "senderID": "4",
+      "receiverID": "5",
+      "message_text": "How are you?",
+      "timestamp": "2026-07-03T21:33:14.846Z"
     }
   ],
   "notifications": [
