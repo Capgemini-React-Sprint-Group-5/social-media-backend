@@ -2027,9 +2027,15 @@
       "status": "accepted"
     },
     {
-      "friendshipID": "mr5g4cxu90rn",
+      "friendshipID": "100067",
       "userID1": "7",
       "userID2": "4",
+      "status": "accepted"
+    },
+    {
+      "friendshipID": "100068",
+      "userID1": "4",
+      "userID2": "1",
       "status": "accepted"
     }
   ],
