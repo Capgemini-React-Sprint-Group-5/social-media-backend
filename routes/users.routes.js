@@ -8,7 +8,7 @@ const router = Router();
 
 router.get("/all", (req, res) => {
   const db = readDB();
-  success(res, { data: db.Users });
+  success(res, { data: db.users });
 });
 
 router.get("/search/:username", (req, res) => {
@@ -136,6 +136,22 @@ router.post("/:userId/friend-requests/send/:friendId", (req, res) => {
     userID2: friendId,
     status: "pending",
   });
+
+  // Notify the recipient that they got a friend request, unless self-request.
+  if (String(userId) !== String(friendId)) {
+    const sender = db.users.find((u) => String(u.userID) === String(userId));
+    const senderName = sender?.username || "someone";
+    db.notifications.push({
+      notificationID: genId(),
+      userID: friendId,
+      fromUserID: userId,
+      type: "friend_request",
+      content: `You got a friend request from ${senderName}`,
+      read: false,
+      timestamp: new Date().toISOString(),
+    });
+  }
+
   writeDB(db);
   success(res, { message: "Friend request sent successfully." }, 201);
 });
@@ -214,6 +230,22 @@ router.post("/:userId/messages/send/:otherUserId", (req, res) => {
     message_text: req.body.message_text,
     timestamp: new Date().toISOString(),
   });
+
+  // Notify the receiver that they got a message, unless messaging themself.
+  if (String(userId) !== String(otherUserId)) {
+    const sender = db.users.find((u) => String(u.userID) === String(userId));
+    const senderName = sender?.username || "someone";
+    db.notifications.push({
+      notificationID: genId(),
+      userID: otherUserId,
+      fromUserID: userId,
+      type: "message",
+      content: `You have a new message from ${senderName}`,
+      read: false,
+      timestamp: new Date().toISOString(),
+    });
+  }
+
   writeDB(db);
   success(res, { message: "Message sent successfully." }, 201);
 });
@@ -226,6 +258,32 @@ router.get("/:userId/notifications", (req, res) => {
     (n) => String(n.userID) === req.params.userId,
   );
   success(res, { data });
+});
+
+router.put("/:userId/notifications/mark-all-read", (req, res) => {
+  const db = readDB();
+  const { userId } = req.params;
+  let updated = 0;
+  db.notifications.forEach((n) => {
+    if (String(n.userID) === userId && !n.read) {
+      n.read = true;
+      updated += 1;
+    }
+  });
+  writeDB(db);
+  success(res, { message: `${updated} notification(s) marked as read.` });
+});
+
+router.delete("/:userId/notifications/delete-all", (req, res) => {
+  const db = readDB();
+  const { userId } = req.params;
+  const before = db.notifications.length;
+  db.notifications = db.notifications.filter(
+    (n) => String(n.userID) !== userId,
+  );
+  const removed = before - db.notifications.length;
+  writeDB(db);
+  success(res, { message: `${removed} notification(s) deleted.` });
 });
 
 router.put("/:userId/notifications/mark-read/:notificationId", (req, res) => {

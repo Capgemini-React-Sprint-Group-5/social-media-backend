@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 // persistence for a mock server. Not safe for concurrent writes, fine here.
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DB_PATH = path.join(__dirname, "..", "socialmedia-db.json");
+const DB_PATH = path.join(__dirname, "..", "db.json");
 
 export const readDB = () => JSON.parse(fs.readFileSync(DB_PATH, "utf-8"));
 export const writeDB = (db) =>
