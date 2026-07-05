@@ -1669,6 +1669,12 @@
       "postID": "164",
       "userID": "64",
       "timestamp": "NOW()"
+    },
+    {
+      "likeID": "mr7n3shb68x5",
+      "postID": "103",
+      "userID": "1",
+      "timestamp": "2026-07-05T10:20:04.463Z"
     }
   ],
   "friends": [
@@ -2561,16 +2567,16 @@
       "receiverID": "1",
       "message_text": "hello",
       "timestamp": "2026-07-05T09:56:18.754Z"
+    },
+    {
+      "messageID": "mr7n3p2r1qt5",
+      "senderID": "1",
+      "receiverID": "3",
+      "message_text": "how are you ?",
+      "timestamp": "2026-07-05T10:20:00.051Z"
     }
   ],
   "notifications": [
-    {
-      "notificationID": "10000004",
-      "userID": "3",
-      "content": "You have a new notification",
-      "timestamp": "NOW()",
-      "read": false
-    },
     {
       "notificationID": "10000005",
       "userID": "5",
