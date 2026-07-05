@@ -2512,385 +2512,449 @@
       "notificationID": "10000001",
       "userID": "1",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000002",
       "userID": "2",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000003",
       "userID": "1",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000004",
       "userID": "3",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000005",
       "userID": "5",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000006",
       "userID": "6",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000007",
       "userID": "7",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000008",
       "userID": "8",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000009",
       "userID": "9",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000010",
       "userID": "10",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000011",
       "userID": "11",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000012",
       "userID": "12",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000013",
       "userID": "13",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000014",
       "userID": "14",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000015",
       "userID": "15",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000016",
       "userID": "16",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000017",
       "userID": "17",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000018",
       "userID": "18",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000019",
       "userID": "19",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000020",
       "userID": "20",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000021",
       "userID": "21",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000022",
       "userID": "22",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000023",
       "userID": "23",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000024",
       "userID": "24",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000025",
       "userID": "25",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000026",
       "userID": "26",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000027",
       "userID": "27",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000028",
       "userID": "28",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000029",
       "userID": "29",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000030",
       "userID": "30",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000031",
       "userID": "31",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000032",
       "userID": "32",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000033",
       "userID": "33",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000034",
       "userID": "34",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000035",
       "userID": "35",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000036",
       "userID": "36",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000037",
       "userID": "37",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000038",
       "userID": "38",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000039",
       "userID": "39",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000040",
       "userID": "40",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000041",
       "userID": "41",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000042",
       "userID": "42",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000043",
       "userID": "43",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000044",
       "userID": "44",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000045",
       "userID": "45",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000046",
       "userID": "46",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000047",
       "userID": "47",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000048",
       "userID": "48",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000049",
       "userID": "49",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000050",
       "userID": "50",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000051",
       "userID": "51",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000052",
       "userID": "52",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000053",
       "userID": "53",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000054",
       "userID": "54",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000055",
       "userID": "55",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000056",
       "userID": "56",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000057",
       "userID": "57",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000058",
       "userID": "58",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000059",
       "userID": "59",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000060",
       "userID": "60",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000061",
       "userID": "61",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000062",
       "userID": "62",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000063",
       "userID": "63",
       "content": "You have a new notification",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     },
     {
       "notificationID": "10000064",
       "userID": "64",
       "content": "Another notification for you",
-      "timestamp": "NOW()"
+      "timestamp": "NOW()",
+      "read": false
     }
   ],
   "groups": [

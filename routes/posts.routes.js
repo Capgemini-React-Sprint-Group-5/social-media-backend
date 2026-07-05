@@ -51,6 +51,23 @@ router.post('/:postId/likes/add/:userId', (req, res) => {
   const already = db.likes.some((l) => String(l.postID) === postId && String(l.userID) === userId)
   if (already) return fail(res, 409, 'User already liked this post.')
   db.likes.push({ likeID: genId(), postID: postId, userID: userId, timestamp: new Date().toISOString() })
+
+  // Notify the post owner that someone liked their post, unless they liked their own post.
+  const post = db.posts.find((p) => String(p.postID) === postId)
+  if (post && String(post.userID) !== String(userId)) {
+    const liker = db.users.find((u) => String(u.userID) === String(userId))
+    const likerName = liker?.username || 'someone'
+    db.notifications.push({
+      notificationID: genId(),
+      userID: post.userID,
+      fromUserID: userId,
+      type: 'like',
+      content: `You got a like from ${likerName}`,
+      read: false,
+      timestamp: new Date().toISOString(),
+    })
+  }
+
   writeDB(db)
   success(res, { message: 'Like added to the post successfully.' }, 201)
 })
