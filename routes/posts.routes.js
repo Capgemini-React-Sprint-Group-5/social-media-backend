@@ -61,6 +61,7 @@ router.post('/:postId/likes/add/:userId', (req, res) => {
       notificationID: genId(),
       userID: post.userID,
       fromUserID: userId,
+      postID: postId,
       type: 'like',
       content: `You got a like from ${likerName}`,
       read: false,

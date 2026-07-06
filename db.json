@@ -1287,12 +1287,6 @@
   ],
   "likes": [
     {
-      "likeID": "10001",
-      "postID": "101",
-      "userID": "1",
-      "timestamp": "NOW()"
-    },
-    {
       "likeID": "10002",
       "postID": "102",
       "userID": "2",
@@ -1681,6 +1675,12 @@
       "postID": "101",
       "userID": "3",
       "timestamp": "2026-07-05T10:35:48.835Z"
+    },
+    {
+      "likeID": "mr90imfku4l0",
+      "postID": "102",
+      "userID": "1",
+      "timestamp": "2026-07-06T09:23:17.648Z"
     }
   ],
   "friends": [
@@ -2587,6 +2587,27 @@
       "receiverID": "1",
       "message_text": "fine",
       "timestamp": "2026-07-05T10:35:55.138Z"
+    },
+    {
+      "messageID": "mr90hxqps8a0",
+      "senderID": "2",
+      "receiverID": "1",
+      "message_text": "how are you",
+      "timestamp": "2026-07-06T09:22:45.649Z"
+    },
+    {
+      "messageID": "mr90itbpsig9",
+      "senderID": "1",
+      "receiverID": "2",
+      "message_text": "fine",
+      "timestamp": "2026-07-06T09:23:26.581Z"
+    },
+    {
+      "messageID": "mr90y3az16kf",
+      "senderID": "2",
+      "receiverID": "1",
+      "message_text": "okay",
+      "timestamp": "2026-07-06T09:35:19.355Z"
     }
   ],
   "notifications": [
