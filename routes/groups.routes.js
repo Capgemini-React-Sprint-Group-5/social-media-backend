@@ -35,6 +35,11 @@ router.get("/", (req, res) => {
   success(res, { data });
 });
 
+router.get("/messages/all", (req, res) => {
+  const db = readDB();
+  success(res, { data: db.group_messages || [] });
+});
+
 router.get("/:groupId", (req, res) => {
   const db = readDB();
   const group = findGroup(db, req.params.groupId);

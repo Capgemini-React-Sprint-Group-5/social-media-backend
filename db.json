@@ -7,10 +7,20 @@
       "password": "password1",
       "profile_picture": "profile1.jpg",
       "groups": [
+<<<<<<< Updated upstream
         "1001",
         "1003",
         "1005",
         "1004"
+=======
+        "1004",
+        "1005",
+        "mr8qbrurifko",
+        "1001",
+        "1006",
+        "1003",
+        "1002"
+>>>>>>> Stashed changes
       ]
     },
     {
@@ -20,8 +30,12 @@
       "password": "password2",
       "profile_picture": "profile2.jpg",
       "groups": [
+<<<<<<< Updated upstream
         "1001",
         "1003"
+=======
+        "1001"
+>>>>>>> Stashed changes
       ]
     },
     {
@@ -30,14 +44,23 @@
       "email": "user3@example.com",
       "password": "password3",
       "profile_picture": "profile3.jpg",
+<<<<<<< Updated upstream
       "groups": []
+=======
+      "groups": [
+        "1001"
+      ]
+>>>>>>> Stashed changes
     },
     {
       "userID": "4",
       "username": "user4",
       "email": "user4@example.com",
       "password": "password4",
-      "profile_picture": "profile4.jpg"
+      "profile_picture": "profile4.jpg",
+      "groups": [
+        "1001"
+      ]
     },
     {
       "userID": "5",
@@ -46,7 +69,11 @@
       "password": "password5",
       "profile_picture": "profile5.jpg",
       "groups": [
+<<<<<<< Updated upstream
         "1005"
+=======
+        "1001"
+>>>>>>> Stashed changes
       ]
     },
     {
@@ -54,7 +81,8 @@
       "username": "user6",
       "email": "user6@example.com",
       "password": "password6",
-      "profile_picture": "profile6.jpg"
+      "profile_picture": "profile6.jpg",
+      "groups": []
     },
     {
       "userID": "7",
@@ -2525,6 +2553,13 @@
       "receiverID": "61",
       "message_text": "Logan, gaming recommendations!",
       "timestamp": "NOW()"
+    },
+    {
+      "messageID": "mr7fjs0xf5te",
+      "senderID": "1",
+      "receiverID": "2",
+      "message_text": "Hello user2",
+      "timestamp": "2026-07-05T06:48:33.441Z"
     }
   ],
   "notifications": [
@@ -2919,7 +2954,22 @@
       "groupName": "Group 1",
       "adminID": "1",
       "members": [
+<<<<<<< Updated upstream
         "2",
+=======
+        "1",
+        "4",
+        "2",
+        "5",
+        "3"
+      ]
+    },
+    {
+      "groupID": "1002",
+      "groupName": "Group 2",
+      "adminID": "2",
+      "members": [
+>>>>>>> Stashed changes
         "1"
       ]
     },
@@ -2928,7 +2978,10 @@
       "groupName": "Group 3",
       "adminID": "3",
       "members": [
+<<<<<<< Updated upstream
         "2",
+=======
+>>>>>>> Stashed changes
         "1"
       ]
     },
@@ -2945,14 +2998,20 @@
       "groupName": "Group 5",
       "adminID": "5",
       "members": [
+<<<<<<< Updated upstream
         "5",
+=======
+>>>>>>> Stashed changes
         "1"
       ]
     },
     {
       "groupID": "1006",
       "groupName": "Group 6",
-      "adminID": "6"
+      "adminID": "6",
+      "members": [
+        "1"
+      ]
     },
     {
       "groupID": "1007",
@@ -3062,7 +3121,8 @@
     {
       "groupID": "1028",
       "groupName": "Art Creators",
-      "adminID": "28"
+      "adminID": "28",
+      "members": []
     },
     {
       "groupID": "1029",
@@ -3243,6 +3303,93 @@
       "groupID": "1064",
       "groupName": "Gaming Community 2.0",
       "adminID": "64"
+    },
+    {
+      "groupID": "mr8qbrurifko",
+      "groupName": "Test grouup",
+      "adminID": 1,
+      "members": [
+        1
+      ]
+    }
+  ],
+  "group_messages": [
+    {
+      "groupMessageID": "mr58zf76iqk9",
+      "groupID": "1001",
+      "userID": "2",
+      "message_text": "Hii",
+      "timestamp": "2026-07-03T18:09:13.650Z"
+    },
+    {
+      "groupMessageID": "mr58zwvid5bn",
+      "groupID": "1002",
+      "userID": "2",
+      "message_text": "Hii",
+      "timestamp": "2026-07-03T18:09:36.558Z"
+    },
+    {
+      "groupMessageID": "mr7f1axpzze0",
+      "groupID": "1001",
+      "userID": "1",
+      "message_text": "Hii",
+      "timestamp": "2026-07-05T06:34:11.485Z"
+    },
+    {
+      "groupMessageID": "mr7fh3nw4itk",
+      "groupID": "1001",
+      "userID": "1",
+      "message_text": "Hello from user1",
+      "timestamp": "2026-07-05T06:46:28.560Z"
+    },
+    {
+      "groupMessageID": "mr7fj21czr15",
+      "groupID": "1002",
+      "userID": "1",
+      "message_text": "Hello Group 2",
+      "timestamp": "2026-07-05T06:47:59.760Z"
+    },
+    {
+      "groupMessageID": "mr7fm5ov1y19",
+      "groupID": "1002",
+      "userID": "1",
+      "message_text": "Test bubble fix",
+      "timestamp": "2026-07-05T06:50:24.463Z"
+    },
+    {
+      "groupMessageID": "mr8q03b8aa9w",
+      "groupID": "1002",
+      "userID": "1",
+      "message_text": "Hii",
+      "timestamp": "2026-07-06T04:28:56.900Z"
+    },
+    {
+      "groupMessageID": "mr8rr7s4j3tg",
+      "groupID": "1001",
+      "userID": "1",
+      "message_text": "Hii",
+      "timestamp": "2026-07-06T05:18:02.020Z"
+    },
+    {
+      "groupMessageID": "mr8von6y3zpp",
+      "groupID": "1001",
+      "userID": "1",
+      "message_text": "hii",
+      "timestamp": "2026-07-06T07:08:00.490Z"
+    },
+    {
+      "groupMessageID": "mr94v38luaay",
+      "groupID": "1004",
+      "userID": "1",
+      "message_text": "Test Message from user 4 to the group4",
+      "timestamp": "2026-07-06T11:24:57.765Z"
+    },
+    {
+      "groupMessageID": "mr95ddo4khst",
+      "groupID": "1001",
+      "userID": "1",
+      "message_text": "Hii",
+      "timestamp": "2026-07-06T11:39:11.092Z"
     }
   ],
   "group_messages": [
